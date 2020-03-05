@@ -27,25 +27,24 @@ function sum(num1, num2){
 //////////////////PROBLEM 5////////////////////
 
 // Create a function called 'lovesCodeChecker' that takes in a single parameter called 'x'. Check to see if 'x' is equal to true. If it is, return a true boolean. If 'x' does not equal true, return a false boolean.  
-/*var lovesCodeChecker;
+var lovesCodeChecker;
 function lovesCodeChecker (x){
 if (x === true){ return true; 
-} else if {
-	//if (x !== true) { 
+} else if (x !== true) { 
 		return false
 }
-}*/
+}
 
 //Code here
 
 /////the parameter is odd, return 'the number is odd'. If the number is even, return 'the number is even'./////////////PROBLEM 6////////////////////
 
 // Create a function called 'oddChecker' that takes in one parameter, 'num'. Your function should check to see if the parameter is even or odd. If 
-/*function oddChecker(num){
+function oddChecker(num){
 	if (num % 2 === 0){ return 'the number is even' } 
-	else{ return 'the number is odd';
+	else if (num % 2 !== 0) { return 'the number is odd'
 }
-}*/
+}
 //Code here
 
 //////////////////PROBLEction take the two parameters and return a string that says "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"M 7////////////////////
@@ -53,7 +52,9 @@ if (x === true){ return true;
 // Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. Have the fun
 
 //Code Here
-
+function iLove(name, love){
+	return name + " loves " + love;
+}
 //////////////////PROBLEM 8////////////////////
 
 // Create a copy of the faveColors array called 'colorCopy' using slice.
@@ -87,8 +88,8 @@ let me = {
 	firstName: "Jason",
 	state: "Arizona",
 	age: 38,
-	//greeter: 'Hello! My name is ' + me.firstName + ' and I live in ' + me.state
-	greeter: `Hello! My name is ${me.firstName} and I live in ${me.state}`
+	greeter: function() { return 'Hello! My name is ' + this.firstName + ' and I live in ' + this.state}
+	//greeter: `Hello! My name is ${me.firstName} and I live in ${me.state}`
 }
 //////////////////PROBLEM 12////////////////////
 
@@ -97,11 +98,14 @@ let me = {
 //Inside of the bigOrSmall function, create a new array called 'answers'. Then, loop over the passed in arr pa
 
 // Code here
-/*function bigOrSmall(arr){
+function bigOrSmall(arr){
 	let answers=[];
-	for (i = 0, i < arr.length, i++)
-	if (i <= 100) i.push
-}*/
+	for (i = 0, i < arr.length, i++);
+	if (i > 100){ answers.push("big")
+} else (i <= 100) { answers.push('small')	
+}
+
+}
 //////////////////PROBLEM 13////////////////////
 
 // Create a function called 'arrayReverser' that takes in one parameter, 'arr'. Inside of arrayReverser, create an empty array called 'reversed'.
