@@ -24,15 +24,15 @@ function setGroceryListTitle(x){
 
 // Code Here
 function addItem(item){
-    return groceries.push(item);
-    displayData()
+    groceries.push(item);
+    displayData();
 }
 //////////////////STEP 5////////////////////
 //Create a function called 'removeItem' that takes in one parameter called 'index'. Inside of the removeItem function, remove the item that corresponds to the index parameter from the groceries
 // array above by using splice. Then, invoke the displayData() function inside of your removeItem function.
 function removeItem(index){
-    return groceries.splice(index);
-    displayDate();
+    groceries.splice(index);
+    displayData();
 }
 // Code Here
 
@@ -42,14 +42,14 @@ function removeItem(index){
 //If the number of groceries is equal to one, return the string '1 item'. If the amount of groceries is between 1 and 5, return the string 'NUMBEROFGROCERIES items' with NUMBEROFGROCERIES 
 //replaced by the number of items in your groceries array.
 function checkGroceryCount(){
-    return groceries.length
-    if (groceries.length >= 5){
+    let itemCount = groceries.length
+    if (itemCount >= 5){
         return 'That looks like a big trip';
     } else if 
-        (groceries.length === 1){
+        (itemCount === 1){
             return '1 item';
         } else {
-            return (groceries.length - 1) + ' items'
+            return itemCount + ' items'
         }
     }
     

@@ -1,0 +1,35 @@
+.header {
+    width: 100vw;
+    height: 100px;
+    background-color: grey;
+    display: flex;
+}
+
+header > div {
+    max-width: 1000px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.hi {
+    width: 60px;
+}
+
+.links {
+    display: flex;
+    margin 0 10px;
+}
+
+.links > li{
+margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+}

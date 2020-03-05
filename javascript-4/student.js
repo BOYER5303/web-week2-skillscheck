@@ -53,14 +53,23 @@ if (i === "blue"){
 // CODE HERE
 
 //////////////////Step 5////////////////////
-//Create a function called 'setPowers' that takes in 'arr' as a parameter. In your setPowers function, loop over the arr parameter and run a function we created called createLi(), which will take each item of the array as an argument. Remember, you did not create the createLi function. The createLi function is a function we created that determines how the content is displayed.
+//Create a function called 'setPowers' that takes in 'arr' as a parameter. In your setPowers function, loop over the arr parameter and run a function we created called createLi(), 
+//which will take each item of the array as an argument. Remember, you did not create the createLi function. The createLi function is a function we created that determines how the content is displayed.
 
 // CODE HERE
 function setPowers(arr){
+    for(i = 0, i < arr.length, i++);
+    function createLi();
     
 }
 
 //////////////////Step 6////////////////////
-//Lastly, create a function called 'redactInfo' that will take in an object called 'obj' as a parameter. Now, imagine your super hero needs to go undercover, and you need to remove all info about them. That is what this function will do. In your function, loop over the obj parameter passed in, and change each keys value to 'redacted'. Outside of the loop but still in the redactInfo function, run the function redacted() which is a function we created that will update the text on the screen.
-
+//Lastly, create a function called 'redactInfo' that will take in an object called 'obj' as a parameter. Now, imagine your super hero needs to go undercover, 
+//and you need to remove all info about them. That is what this function will do. In your function, loop over the obj parameter passed in, and change each keys value to 'redacted'. 
+//Outside of the loop but still in the redactInfo function, run the function redacted() which is a function we created that will update the text on the screen.
+function redactInfo(obj){
+    for(i = 0; i < arr.length, i++);
+    if 
+redacted();
+}
 // CODE HERE
